@@ -1,0 +1,117 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+header {
+    background-image: url('images/landingpage.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.card {
+    .card {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+
+.card img {
+    transition: transform 0.2s;
+}
+
+.card:hover img {
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #333;
+}
+
+
+#pokemon-name {
+    text-transform: capitalize;
+}
+
+/* #pokemon-image {
+    max-width: 350px;
+    height: auto;
+} */
+
+
+#pokemon-image {
+    max-width: 150px;
+    display: block;
+    margin: 0 auto 10px auto;
+}
+
+.list-inline-item {
+    margin-right: 5px;
+}
+
+.badge {
+    font-size: 14px;
+    padding: 5px 10px;
+}
+
+.accordion .card-header {
+    background-color: #f8f9fa;
+}
+
+.accordion .card-header .btn-link {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.accordion .card-header .btn-link:hover {
+    color: #0056b3;
+}
+
+
+/* styles.css */
+
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.list-group-item {
+    cursor: grab; /* Display hand cursor for dragging */
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin-bottom: 5px;
+}
+
+.list-group-item:active {
+    cursor: grabbing; /* Display grabbing cursor when dragging */
+}
+
+#pokemon-team {
+    background-color: #f8f9fa;
+    border: 2px dashed #ccc; /* Dashed border for better visibility */
+    padding: 10px;
+    list-style: none;
+}
+
+#pokemon-team .list-group-item {
+    background-color: #ffffff; /* Distinct background for list items */
+}
+
+.placeholder-slot {
+    color: #aaa;
+    background-color: #e9ecef;
+    text-align: center;
+    font-style: italic;
+}
+
+.sortable-ghost {
+    opacity: 0.4;
+    background-color: #f0f0f0;
+    border: 2px dashed #ccc;
+}
