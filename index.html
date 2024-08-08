@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Custom CSS -->
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Pokemon</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="search.html">Search_Pokemon</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="details.html">Details</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="team-builder.html">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="battle-simulator.html">Battle</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-primary text-white text-center py-5">
+      <div class="container">
+        <h1>Welcome to Our Landing Page</h1>
+        <p class="lead">
+          We provide the best solutions for your business needs.
+        </p>
+        <a href="#" class="btn btn-primary btn-sm">Learn More</a>
+      </div>
+    </header>
+
+    <!-- Features Section -->
+    <section class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card mb-4">
+              <a href="details.html"
+                ><img
+                  src="images/poke1.jpg"
+                  class="card-img-top"
+                  alt="Feature 1"
+              /></a>
+              <div class="card-body">
+                <h5 class="card-title">Feature 1</h5>
+                <p class="card-text">Description of feature 1.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4">
+              <a href="search.html"
+                ><img
+                  src="images/poke2.jpg"
+                  class="card-img-top"
+                  alt="Feature 2"
+              /></a>
+              <div class="card-body">
+                <h5 class="card-title">Feature 2</h5>
+                <p class="card-text">Description of feature 2.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4">
+              <a href="team-builder.html"
+                ><img
+                  src="images/poke3.jpg"
+                  class="card-img-top"
+                  alt="Feature 3"
+              /></a>
+              <div class="card-body">
+                <h5 class="card-title">Feature 3</h5>
+                <p class="card-text">Description of feature 3.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+      <div class="container">
+        <p>&copy; 2024 Your Company. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+  <!-- Bootstrap JS, Popper.js, and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</html>
