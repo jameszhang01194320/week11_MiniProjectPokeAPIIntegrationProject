@@ -77,9 +77,6 @@ footer {
 
 
 
-body {
-    font-family: Arial, sans-serif;
-}
 
 .list-group-item {
     cursor: grab; /* Display hand cursor for dragging */
